@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Megrim|Codystar|Zeyada|Montserrat&display=swap');
+
+body {
+    background-color: #120078;
+}
+
+.header {
+    text-align: center;
+    height: 350px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+#logo {
+    width: 300px;
+    height: 300px;
+}
+
+.a {
+    justify-content: space-evenly;
+    
+}
+
+/* cabinet is on the left. armoire is on the right. drawer is inside cabinet. shelf is inside armoire. */
+
+.cabinet {
+    height: 20px;
+    content: "";
+    border-style: solid;
+    border-color: #FECD1A;
+    border-width: 1px;
+    border-radius: 25px 0px;
+    padding: 4px;
+}
+.armoire {
+    height: 20px;
+    content: "";
+    border-style: solid;
+    border-color: #FECD1A;
+    border-width: 1px;
+    border-radius: 0px 25px;
+    padding: 4px;
+}
+
+.drawer {
+    height: 10px;
+    content: "";
+    border-style: solid;
+    border-color: #FD3A69;
+    border-width: 1px;
+    border-radius: 25px 0px;
+}
+
+.shelf {
+    height: 10px;
+    content: "";
+    border-style: solid;
+    border-color: #FD3A69;
+    border-width: 1px;
+    border-radius: 0px 25px;
+}
+
+/* pantry is on left, cupboard is on right. bins is in pantry, pegs is in cupboard. */
+
+.pantry {
+    height: 20px;
+    content: "";
+    border-style: solid;
+    border-color: #FECD1A;
+    border-width: 1px;
+    border-radius: 0px 25px;
+    padding: 4px;
+} 
+
+.cupboard {
+    height: 20px;
+    content: "";
+    border-style: solid;
+    border-color: #FECD1A;
+    border-width: 1px;
+    border-radius: 25px 0px;
+    padding: 4px;
+}
+
+.bins {
+    height: 10px;
+    content: "";
+    border-style: solid;
+    border-color: #FD3A69;
+    border-width: 1px;
+    border-radius: 0px 25px;
+}
+
+.pegs {
+    height: 10px;
+    content: "";
+    border-style: solid;
+    border-color: #FD3A69;
+    border-width: 1px;
+    border-radius: 25px 0px;
+}
+
+#bigtext {
+    font-family: Codystar;
+    font-weight: 5em;
+}
