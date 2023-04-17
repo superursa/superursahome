@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Megrim|Codystar|Zeyada|Montserrat&display=swap');
 
-body {
-    background-color: #120078;
+html {
+    height: 100%
 }
+
+body {
+    background: linear-gradient(#120078, #9D0191);
+}
+
 
 .header {
     text-align: center;
-    height: 350px;
+    height: 250px;
     object-fit: contain;
     padding: 20px;
 }
 
 #logo {
-    width: 300px;
-    height: 300px;
+    width: 225px;
+    height: 225px;
+}
+
+.invisible {
+    height: 20px;
+    padding: 10px;
 }
 
 .a {
@@ -99,6 +109,46 @@ body {
     border-width: 1px;
     border-radius: 25px 0px;
 }
+
+.c {
+    height:fit-content;
+    border-style: solid;
+    border-color: #FD3A69;
+    border-width: 1px;
+    border-radius: 25px 0px;
+    padding: 10px;
+}
+
+.intro {
+    color:#FECD1A;
+    font-family: Codystar;
+    font-size: 3em;
+}
+
+.d {
+    height: fit-content;
+    padding: 10px;
+    
+}
+
+.aboutme {
+    color: #FD3A69;
+    border-color: #FECD1A;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px 25px;
+    font-size: 1em;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-top: -40px;
+}
+
+.e {
+    color: #FD3A69;
+    font-size: .8em;
+    font-family: Montserrat;
+}
+
 
 #bigtext {
     font-family: Codystar;
