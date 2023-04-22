@@ -9,6 +9,10 @@ body {
     background: linear-gradient(#120078, #9D0191);
 }
 
+a {
+    color: #FD3A69;
+}
+
 
 .header {
     text-align: center;
