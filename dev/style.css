@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani|Megrim|Codystar|Zeyada|Montserrat&display=swap');
+
+html {
+    min-height: 100%
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(#120078, #9D0191);
+}
+
+a {
+    color: #FD3A69;
+    text-decoration: none;
+}
+
+
+.header {
+    text-align: center;
+    height: 250px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+#logo {
+    width: 225px;
+    height: 225px;
+}
+
+.invisible {
+    height: 20px;
+    padding: 10px;
+}
+
+.a {
+    justify-content: space-evenly;
+    
+}
+
+/* cabinet is on the left. armoire is on the right. drawer is inside cabinet. shelf is inside armoire. */
+
+.cabinet {
+    height: 20px;
+    content: "";
+    border-style: solid;
+    border-color: #FECD1A;
+    border-width: 1px;
+    border-radius: 25px 0px;
+    padding: 4px;
+}
+.armoire {
+    height: 20px;
+    content: "";
+    border-style: solid;
+    border-color: #FECD1A;
+    border-width: 1px;
+    border-radius: 0px 25px;
+    padding: 4px;
+}
+
+.drawer {
+    height: 10px;
+    content: "";
+    border-style: solid;
+    border-color: #FD3A69;
+    border-width: 1px;
+    border-radius: 25px 0px;
+}
+
+.shelf {
+    height: 10px;
+    content: "";
+    border-style: solid;
+    border-color: #FD3A69;
+    border-width: 1px;
+    border-radius: 0px 25px;
+}
+
+/* pantry is on left, cupboard is on right. bins is in pantry, pegs is in cupboard. */
+
+.pantry {
+    height: 20px;
+    content: "";
+    border-style: solid;
+    border-color: #FECD1A;
+    border-width: 1px;
+    border-radius: 0px 25px;
+    padding: 4px;
+} 
+
+.cupboard {
+    height: 20px;
+    content: "";
+    border-style: solid;
+    border-color: #FECD1A;
+    border-width: 1px;
+    border-radius: 25px 0px;
+    padding: 4px;
+}
+
+.bins {
+    height: 10px;
+    content: "";
+    border-style: solid;
+    border-color: #FD3A69;
+    border-width: 1px;
+    border-radius: 0px 25px;
+}
+
+.pegs {
+    height: 10px;
+    content: "";
+    border-style: solid;
+    border-color: #FD3A69;
+    border-width: 1px;
+    border-radius: 25px 0px;
+}
+
+.c {
+    height:fit-content;
+    border-style: solid;
+    border-color: #FD3A69;
+    border-width: 1px;
+    border-radius: 25px 0px;
+    padding: 10px;
+}
+
+.intro {
+    color:#FECD1A;
+    font-family: Codystar;
+    font-size: 3em;
+}
+
+.d {
+    height: fit-content;
+    padding: 10px;
+    
+}
+
+.aboutme {
+    color: #FD3A69;
+    border-color: #FECD1A;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px 25px;
+    font-size: 1em;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-top: -40px;
+}
+
+.e {
+    color: #FD3A69;
+    font-size: .8em;
+    font-family: Montserrat;
+}
+
+
+#bigtext {
+    font-family: Codystar;
+    font-weight: 5em;
+}
+
+#alien {
+    font-family: Rajdhani;
+    font-size: 1em;
+    letter-spacing: .2em;
+    background-color: #60ff60;
+    background-image: linear-gradient(45deg, #60ff2b, #d1ff2b, #e3ffcc);
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+.f {
+    height: fit-content;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+.project {
+    min-height: fit-content;
+    max-height: 377px;
+    border-style: solid;
+    border-color: #FECD1A;
+    border-radius: 5px 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.project2 {
+    min-height: fit-content;
+    max-height: 377px;
+    border-style: solid;
+    border-color: #FECD1A;
+    border-radius: 5px 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.projectimg {
+    height: 204px;
+    width: 204px;
+    padding: 0px;
+    border-style: solid;
+    border-color: #FD3A69;
+    border-radius: 5px 5px;
+    align-items: center;
+    justify-items: center;
+}
+
+.projectblurb {
+    color:#FD3A69;
+    font-size: .8em;
+    width: fit-content;
+}
+
+.projecttitle {
+    font-size: 1.3em;
+    font-style: 700;
+}
+
+.projecttitle1 {
+    font-size: 1.2em;
+}
+
+.g {
+    height: fit-content;
+    font-family: Montserrat;
+}
+
+.contactme {
+    color:#FECD1A;
+    text-align: center;
+}
+
+.vibe {
+    font-size: 1.5em;
+    color: transparent;
+    background-color: #FECD1A;
+    background-image: linear-gradient(45deg, #d400a6, #FECD1A, #FD3A69);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+
+
+.emailadd {
+    color:#FD3A69;
+    letter-spacing: 1em;
+    justify-content: center;
+}
+
+.hiddendiv {
+    height: 100px;
+}
+
